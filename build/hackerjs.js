@@ -30,7 +30,6 @@ var StoryTop = React.createClass({
         React.createElement(
           "td",
           null,
-          src,
           React.createElement(Story, { link: src })
         )
       );

@@ -24,8 +24,7 @@
                 return (
                     <tr key={item}>
                         <td>
-                            {src}
-                            <Story link = {src} />
+                          <Story link = {src} />
                         </td>
                     </tr>
                 );
