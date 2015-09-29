@@ -24,10 +24,18 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+#info-bar {
+	background-color: lightsalmon;
+	color: white;
+	text-align: center;
+	font-family: Montserrat;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
 }
+
 .box {
   background-color: rgb(255, 102, 0);
   width: 84%;
