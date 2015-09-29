@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+.box {
+  background-color: rgb(255, 102, 0);
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#stories {
+  background-color: rgb(246, 246, 239);
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/*Top line of story*/
+.storytop {
+	margin-bottom: 0;
+	font-size: 11pt;
+	margin-top: 0;
+}
+
+.storytop p {
+	font-family: Verdana, Geneva, sans-serif;
+}
+.storytop span, .storytop a {
+	color: #828282;
+}
+
+/*Bottom line of story*/
+.storybottom {
+	color: #828282;
+	margin-top: 0;
+	margin-left: 3.1%;
+	font-size: 8pt;
+	margin-bottom: 4px;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.link {
+  margin-left: 3px;
+}
+
+a, .login {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+}
+
+a span:nth-child(1) {
+	color: black;
+}
+
+.newsheader {
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+
+i {
+  color: rgb(255, 102, 0);
+  background-color: white;
+  margin: 3px;
+	border: white solid 1px;
+}
+
+.arrow {
+	color: gray;
+	font-size: 8pt;
+}
+
+#main-title {
+  font-weight: bold;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.login {
+  margin-left: auto;
+}
+
+.search {
+  margin-bottom: 2%;
+  color: #828282;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+}
+
+/*Push each story from the left border*/
+.indivstory {
+	margin-left: 1%;
+}
+
+/*link to more pages*/
+#more {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10pt;
+	color: #828282;
+	margin-left: 4.1%;
+}
+
+#more:hover {
+	cursor: pointer;
+}
+
+/*Top spacing in between first story and header*/
+#stories div:first-child{
+	margin-top: 1.5%;
+}
+
+/*Spacing for more button*/
+#stories div:nth-child(30){
+	margin-bottom: 12px;
+}
+
+
+/*Styling for bottom after stories*/
+
+#bottom {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-top: 2px rgb(255, 102, 0) solid;
+	margin-top: 12px;
+}
+.bottomlinks {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 8pt;
+  color: black;
+	margin-right: -6px;
+}
