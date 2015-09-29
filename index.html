@@ -1,71 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"></meta>
     <title>Hacker News</title>
     <!-- Custom Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="./stylesheet/hackerstyle.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheet/hackerstyle.css"></link>
     <!-- Font awsome stylesheet for icons -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></link>
     <!-- jQuery from Google CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- React from CloudFlare CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
     <!-- Fav Icon -->
-    <link rel="shortcut icon" type="image/png" href="./images/hackernews.gif"/>
+    <!-- <link rel="shortcut icon" type="image/png" href="./images/hackernews.gif"> -->
   </head>
   <body>
     <div class="container">
-      <div class="box">
-        <!-- top header -->
-        <div class="newsheader">
-          <ul>
-            <i class="fa fa-hacker-news"></i>
-            <li><a href="#" id="main-title">Hacker News</a></li>
-            <li><a href="#">new</a></li>|
-            <li><a href="#" class="link">comments</a></li>|
-            <li><a href="#" class="link">show</a></li>|
-            <li><a href="#" class="link">ask</a></li>|
-            <li><a href="#" class="link">jobs</a></li>|
-            <li><a href="#" class="link">submit</a></li>
-          </ul>
-          <li class="login">login</li>
-        </div>
-      </div>
-      <div id="stories">
-        <!-- Where stories are populated -->
-        <div id="newstories">
-
-        </div>
-
-        <div id="onestory">
-
-          <script src="build/hackerjs.js"></script>
-
-        </div>
-
-        <a id="more">More</a>
-        <!-- Bottom nav and search bar -->
-        <div id="bottom">
-          <div id="bottom-nav">
+        <div class="box">
+          <!-- top header -->
+          <div class="newsheader">
             <ul>
-              <li><a href="https://news.ycombinator.com/newsguidelines.html" class="bottomlinks">Guidelines</a></li>|
-              <li><a href="https://news.ycombinator.com/newsfaq.html" class="bottomlinks">FAQ</a></li>|
-              <li><a href="#" class="bottomlinks">Support</a></li>|
-              <li><a href="https://github.com/HackerNews/API" class="bottomlinks">API</a></li>|
-              <li><a href="https://news.ycombinator.com/security.html" class="bottomlinks">Security</a></li>|
-              <li><a href="https://news.ycombinator.com/lists" class="bottomlinks">Lists</a></li>|
-              <li><a href="https://news.ycombinator.com/bookmarklet.html" class="bottomlinks">Bookmarklet</a></li>|
-              <li><a href="https://news.ycombinator.com/dmca.html" class="bottomlinks">DMCA</a></li>|
-              <li><a href="http://www.ycombinator.com/apply/" class="bottomlinks">Apply to YC</a></li>|
-              <li><a href="#" class="bottomlinks">Contact</a></li>
+              <i class="fa fa-hacker-news"></i>
+              <li><a href="#" id="main-title">Hacker News</a></li>
+              <li><a href="#">new</a></li>|
+              <li><a href="#" class="link">comments</a></li>|
+              <li><a href="#" class="link">show</a></li>|
+              <li><a href="#" class="link">ask</a></li>|
+              <li><a href="#" class="link">jobs</a></li>|
+              <li><a href="#" class="link">submit</a></li>
             </ul>
-          </div>
-          <div class='search'>
-            Search: <input type="text">
+            <li class="login">login</li>
           </div>
         </div>
+        <div id="stories">
+          <!-- Where stories are populated -->
+          <div id="newstories">
+            <script src="build/hackerjs.js"></script>
+
+          </div>
+
+
+          <a id="more">More</a>
+          <!-- Bottom nav and search bar -->
+          <div id="bottom">
+            <div id="bottom-nav">
+              <ul>
+                <li><a href="https://news.ycombinator.com/newsguidelines.html" class="bottomlinks">Guidelines</a></li>|
+                <li><a href="https://news.ycombinator.com/newsfaq.html" class="bottomlinks">FAQ</a></li>|
+                <li><a href="#" class="bottomlinks">Support</a></li>|
+                <li><a href="https://github.com/HackerNews/API" class="bottomlinks">API</a></li>|
+                <li><a href="https://news.ycombinator.com/security.html" class="bottomlinks">Security</a></li>|
+                <li><a href="https://news.ycombinator.com/lists" class="bottomlinks">Lists</a></li>|
+                <li><a href="https://news.ycombinator.com/bookmarklet.html" class="bottomlinks">Bookmarklet</a></li>|
+                <li><a href="https://news.ycombinator.com/dmca.html" class="bottomlinks">DMCA</a></li>|
+                <li><a href="http://www.ycombinator.com/apply/" class="bottomlinks">Apply to YC</a></li>|
+                <li><a href="#" class="bottomlinks">Contact</a></li>
+              </ul>
+            </div>
+            <div class='search'>
+              Search: <input type="text"></input>
+            </div>
+          </div>
+      </div>
     </div>
   </body>
 </html>
